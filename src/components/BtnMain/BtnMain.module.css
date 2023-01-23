@@ -1,0 +1,37 @@
+.btnM {
+    width: 160px;
+    height: 42px;
+    background-color: #c0a600;
+    border-radius: 16px;
+    text-align: center;
+    padding-top: 10px;
+    cursor: pointer;
+    margin-right: -10px;
+}
+
+.btnM:hover {
+    background-color: #ad9600;
+}
+
+.btnArea a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+@media (min-width:425px) and (max-width:768px) {
+
+    .btnM {
+        display: block;
+    }
+
+}
+
+@media (min-width:320px) and (max-width:425px) {
+
+    .btnM {
+        display: block;
+    }
+
+}

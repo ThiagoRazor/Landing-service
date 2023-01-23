@@ -1,0 +1,1474 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,700&display=swap');
+
+:root {
+    --main-color: #0D64B1;
+    --text-color: #ccc;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--text-color);
+}
+
+
+.topButtonScroll {
+    position: fixed;
+    display: block;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px;
+    background-color: var();
+    color: white;
+    border-radius: 5px;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    margin: auto;
+    padding-bottom: 40px;
+    font-size: 40px;
+    background-color: #1280e0;
+    border: 0;
+    z-index: 1;
+}
+
+.container {
+    height: 120px;
+}
+
+.asideArea {
+    display: none;
+}
+
+
+
+
+.upperArea {
+    background-color: #3B3B3B;
+}
+
+.boxUpperArea {
+    max-width: 1200px;
+    background-color: #3B3B3B;
+    height: 31px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: auto;
+    padding-left: 187px;
+    gap: 150px;
+}
+
+.contactsBox1 {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.contactsBox1 p {
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    margin: auto;
+    background-color: #3B3B3B;
+    padding-left: 6px;
+}
+
+.iconArea {
+    height: 18px;
+    width: 18px;
+}
+
+.socialsBox1 {
+    width: 150px;
+}
+
+.socialsArea {
+    height: 20px;
+    width: 20px;
+    margin-left: 10px;
+}
+
+.lowerTotalArea {
+    width: 100%;
+    background-color: #e0f1ee;
+}
+
+.totalMenuArea {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 1200px;
+    height: 91px;
+    margin: auto;
+    gap: 20px;
+}
+
+.totalNavArea {
+    max-width: 450px;
+    height: 91px;
+    margin: auto;
+
+}
+
+.totalNavArea nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    height: 91px;
+    gap: 40px;
+    list-style-type: none;
+}
+
+
+
+.totalNavArea nav ul li a {
+    text-decoration: none;
+    color: #006bb7;
+    font-weight: bold;
+    font-size: 16px;
+    padding-bottom: 7px;
+    transition: border 0.2s ease;
+}
+
+.totalNavArea nav ul li a:hover {
+
+    border-bottom: 4px solid #006bb7;
+    border-radius: 3px;
+
+}
+
+
+.asideBtnArea {
+    display: none;
+}
+
+#home {
+    background-image: url('../../assets/office-cleaning-service.jpeg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+
+.bgTotalArea {
+    height: 850px;
+    width: 100%;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.37);
+    padding-top: 160px;
+}
+
+.homeTitleArea {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    max-width: 745px;
+    height: 380px;
+    margin: auto;
+    color: #D9D9D9;
+    gap: 45px;
+}
+
+.homeTitleArea h2 {
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.homeTitleArea h1 {
+    font-size: 45px;
+    font-weight: normal;
+    text-align: center;
+}
+
+#about {
+    max-width: 100%;
+    height: 450px;
+    background-color: #fff;
+}
+
+.boxArticleArea {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    height: 620px;
+    margin: auto;
+    gap: 40px;
+}
+
+.articleArea1 {
+    width: 480px;
+    height: 420px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.articleArea1 img {
+    width: 480px;
+    height: 320px;
+    border-radius: 8px;
+}
+
+.articleArea2 {
+    width: 360px;
+    height: 420px;
+    background-color: var(--main-color);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    color: white;
+    padding-left: 30px;
+}
+
+.articleArea2 h3 {
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.articleArea2 p {
+    max-width: 300px;
+}
+
+.littleBar1 {
+    width: 25px;
+    height: 4px;
+    border-radius: 8px;
+    background-color: #f0d000;
+}
+
+.boxArticleArea2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    height: 620px;
+    margin: auto;
+    gap: 40px;
+    background-color: var(--main-color);
+}
+
+.boxOurServices {
+    max-width: 1200px;
+    height: 620px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 20px;
+    gap: 20px;
+}
+
+.infoServices h3 {
+    color: #f0d000;
+    font-size: 16px;
+}
+
+.underH3 {
+    width: 118px;
+    height: 2px;
+    background-color: #f0d000;
+    margin: auto;
+    border-radius: 16px;
+}
+
+.infoServices h2 {
+    color: #fff;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.boxesServices {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.servicesContainers {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 340px;
+    height: 420px;
+    background-color: #fff;
+    border-radius: 8px;
+    margin-left: 32.5px;
+    margin-right: 32.5px;
+    padding-top: 10px;
+    text-align: justify;
+}
+
+.servicesContainers img {
+    width: 300px;
+    border-radius: 12px;
+    align-self: center;
+
+}
+
+.servicesContainers h2 {
+    color: #808080;
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+.servicesContainers p {
+    width: 240px;
+    color: #a8a8a8;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 28px;
+    margin-top: 10px;
+}
+
+.boxArticleArea3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    height: 620px;
+    margin: auto;
+    gap: 40px;
+    background-color: #3B3B3B;
+}
+
+.boxArticleArea3 .littleBar1 {
+    background-color: #3B3B3B;
+}
+
+.boxArticleArea3 .articleArea2 {
+    background-color: #f0d000;
+}
+
+.formArea {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.formElement {
+    width: 300px;
+    height: 45px;
+    padding-left: 20px;
+    outline: 0;
+}
+
+.formElementSub {
+    width: 180px;
+    height: 50px;
+    background-color: var(--main-color);
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    border: 0px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.formElementSub:hover {
+    background-color: #0058ca;
+}
+
+.containerFooter {
+    height: 180px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #002453;
+
+}
+
+.containerFooter .totalMenuArea {
+    gap: 150px;
+    padding-left: 65px;
+}
+
+.lowerTotalAreaFooter {
+    width: 100%;
+    background-color: #002453;
+}
+
+.lowerTotalAreaFooter .lowerArea {
+    max-width: 1200px;
+    height: 100px;
+    background-color: #002453;
+    margin: auto;
+}
+
+.reservedRights {
+    width: 500px;
+    text-align: center;
+    color: var(--text-color);
+}
+
+.containerFooter .socialsBox1 {
+    width: 180px;
+}
+
+.containerFooter .socialsBox1 img {
+    width: 30px;
+    height: 30px;
+}
+
+.containerFooter .contactsBox1 {
+    width: 190px;
+    background-color: #002453;
+    padding-left: 20px;
+}
+
+.containerFooter .contactsBox1 p {
+    background-color: #002453;
+    font-size: 18px;
+}
+
+
+
+@media (min-width:1024px) and (max-width:1260px) {
+
+    .boxUpperArea {
+        max-width: 800px;
+        padding-left: 20px;
+        gap: 150px;
+    }
+
+
+    .contactsBox1 p {
+        font-size: 12px;
+    }
+
+    .totalMenuArea {
+        max-width: 800px;
+    }
+
+    .bgTotalArea {
+        height: 735px;
+    }
+
+    .boxOurServices {
+        max-width: 930px;
+    }
+
+    .boxesServices {
+        gap: 15px;
+    }
+
+    .servicesContainers {
+        width: 300px;
+        height: 380px;
+        margin: 0;
+    }
+
+
+
+    .lowerTotalAreaFooter .lowerArea {
+        max-width: 800px;
+    }
+
+    .reservedRights {
+        width: 300px;
+        font-size: 12px;
+    }
+
+    .containerFooter .totalMenuArea {
+        gap: 150px;
+        padding-left: 0;
+    }
+
+    .containerFooter .logoArea a p {
+        width: 143px;
+    }
+
+    .containerFooter .contactsBox1 p {
+        font-size: 12px;
+    }
+
+    .containerFooter .socialsBox1 {
+        width: 120px;
+    }
+
+    .containerFooter .socialsBox1 img {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+@media (min-width:768px) and (max-width:1024px) {
+
+    .boxUpperArea {
+        max-width: 800px;
+        padding-left: 20px;
+        gap: 10px;
+        justify-content: center;
+    }
+
+
+    .contactsBox1 p {
+        font-size: 10px;
+    }
+
+    .totalMenuArea {
+        max-width: 1200px;
+        gap: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .totalNavArea nav ul {
+        gap: 20px;
+    }
+
+    .bgTotalArea {
+        height: 535px;
+    }
+
+    .boxArticleArea {
+        height: 470px;
+    }
+
+    .articleArea1 {
+        width: 400px;
+    }
+
+    .articleArea1 img {
+        width: 350px;
+        height: 260px;
+    }
+
+    .articleArea2 {
+        width: 280px;
+        height: 340px;
+        gap: 7px;
+        padding-left: 26px;
+    }
+
+    .articleArea2 h3 {
+        font-size: 14px;
+    }
+
+
+    .littleBar1 {
+        width: 22px;
+        height: 4px;
+    }
+
+
+    .boxOurServices {
+        max-width: 760px;
+    }
+
+    .boxesServices {
+        gap: 15px;
+    }
+
+    .servicesContainers {
+        width: 240px;
+        height: 360px;
+        margin: 0;
+    }
+
+    .servicesContainers img {
+        width: 230px;
+    }
+
+    .servicesContainers h2 {
+        font-size: 18px;
+        margin-left: 10px;
+        margin-top: 15px;
+    }
+
+    .servicesContainers p {
+        font-size: 14px;
+        width: 180px;
+        margin-left: 10px;
+        margin-top: 9px;
+    }
+
+
+    .formElement {
+        width: 230px;
+        height: 40px;
+        padding-left: 10px;
+    }
+
+    .formElementSub {
+        width: 160px;
+        height: 45px;
+    }
+
+
+    .lowerTotalAreaFooter .lowerArea {
+        max-width: 800px;
+    }
+
+    .reservedRights {
+        width: 300px;
+        font-size: 12px;
+    }
+
+
+    .containerFooter {
+        height: 145px;
+        padding-top: 20px;
+        align-items: start;
+    }
+
+    .containerFooter .totalMenuArea {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        max-width: 735px;
+        gap: 30px;
+    }
+
+    .containerFooter .logoArea a {
+        width: 143px;
+    }
+
+    .containerFooter .contactsBox1 p {
+        font-size: 12px;
+    }
+
+    .containerFooter .socialsBox1 {
+        width: 160px;
+    }
+
+    .containerFooter .socialsBox1 img {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+@media (min-width:425px) and (max-width:768px) {
+
+    .boxUpperArea {
+        max-width: 800px;
+        padding-left: 20px;
+        gap: 10px;
+        justify-content: center;
+    }
+
+
+    .contactsBox1 {
+        display: none;
+    }
+
+
+    .socialsBox1 {
+        display: none;
+    }
+
+    .totalMenuArea {
+        max-width: 660px;
+        gap: 20px;
+        padding-left: 30px;
+        padding-right: 30px;
+        justify-content: space-between;
+    }
+
+    .totalNavArea {
+        display: none;
+    }
+
+    .asideBtnArea {
+        width: 50px;
+        height: 50px;
+        background-color: #0058ca;
+        border-radius: 8px;
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .btnMenuAside {
+        border: 0;
+    }
+
+
+    .asideBar {
+        width: 35px;
+        height: 5px;
+        border-radius: 20px;
+        background-color: var(--text-color);
+    }
+
+    .asideArea {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .asideMenuArea {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        width: 55%;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.67);
+        z-index: 1;
+        animation: 0.3s ease-in-out 0s 1 normal forwards running asideAnimation;
+    }
+
+    @keyframes asideAnimation {
+        from {
+            transform: translateX(100%);
+        }
+
+        to {
+            transform: translateX(0);
+        }
+    }
+
+    .asideClose {
+        color: var(--text-color);
+        font-size: 30px;
+        cursor: pointer;
+    }
+
+
+    aside {
+        display: flex;
+        height: 400px;
+    }
+
+    .asideMenuArea li {
+        list-style-type: none;
+        margin-top: 40px;
+    }
+
+    .asideMenuArea li a {
+        text-decoration: none;
+        color: var(--text-color);
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    #home {
+        background-image: url('../../assets/office-cleaning-service.jpeg');
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+        width: 100%;
+    }
+
+    .homeTitleArea {
+        justify-content: center;
+        margin-top: 70px;
+
+    }
+
+    .boxArticleArea {
+        height: 470px;
+        flex-direction: column-reverse;
+        transform: translateX();
+    }
+
+    .boxArticleArea2 {
+        align-items: flex-start;
+        height: 1240px;
+    }
+
+    .articleArea1 {
+        display: none;
+        width: 400px;
+    }
+
+    .articleArea1 img {
+        width: 350px;
+        height: 260px;
+    }
+
+    .articleArea2 {
+        width: 390px;
+        height: 360px;
+        gap: 7px;
+        padding-left: 26px;
+    }
+
+    .articleArea2 h3 {
+        font-size: 14px;
+    }
+
+
+    .littleBar1 {
+        width: 22px;
+        height: 4px;
+    }
+
+
+    .boxOurServices {
+        max-width: 760px;
+    }
+
+    .boxesServices {
+        gap: 20px;
+        flex-direction: column;
+    }
+
+    .servicesContainers {
+        width: 390px;
+        height: 360px;
+        margin: 0;
+    }
+
+    .servicesContainers img {
+        width: 302px;
+    }
+
+    .servicesContainers h2 {
+        font-size: 24px;
+        margin-left: 55px;
+        margin-top: 15px;
+    }
+
+    .servicesContainers p {
+        font-size: 15px;
+        width: 288px;
+        margin-left: 56px;
+        margin-top: 9px;
+    }
+
+
+    .formElement {
+        width: 230px;
+        height: 40px;
+        padding-left: 10px;
+    }
+
+    .formElementSub {
+        width: 160px;
+        height: 45px;
+    }
+
+
+    .lowerTotalAreaFooter .lowerArea {
+        max-width: 800px;
+    }
+
+    .reservedRights {
+        width: 300px;
+        font-size: 14px;
+        margin-left: 31px;
+    }
+
+
+    .containerFooter .logoArea a p {
+        width: 143px;
+    }
+
+
+    .containerFooter .contactsBox1 p {
+        font-size: 12px;
+    }
+
+    .containerFooter .socialsBox1 {
+        width: 85px;
+        display: flex;
+    }
+
+    .containerFooter .socialsBox1 img {
+        width: 20px;
+        height: 20px;
+
+        display: flex;
+    }
+
+    .containerFooter {
+        height: 270px;
+        padding-top: 20px;
+        align-items: start;
+        padding-right: 44px;
+    }
+
+    .containerFooter .totalMenuArea {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .containerFooter .logoArea a {
+        width: 143px;
+        margin-left: -17px;
+    }
+
+    .containerFooter .contactsBox1 {
+        display: flex;
+        width: 140px;
+    }
+
+    .containerFooter .contactsBox1 p {
+        font-size: 12px;
+    }
+
+
+}
+
+@media (min-width:320px) and (max-width:425px) {
+
+    .boxUpperArea {
+        max-width: 800px;
+        padding-left: 20px;
+        gap: 10px;
+        justify-content: center;
+    }
+
+
+    .contactsBox1 {
+        display: none;
+    }
+
+
+    .socialsBox1 {
+        display: none;
+    }
+
+    .totalMenuArea {
+        max-width: 660px;
+        gap: 20px;
+        padding-left: 30px;
+        padding-right: 30px;
+        justify-content: space-between;
+    }
+
+    .totalNavArea {
+        display: none;
+    }
+
+    .asideBtnArea {
+        width: 50px;
+        height: 50px;
+        background-color: #0058ca;
+        border-radius: 8px;
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .btnMenuAside {
+        border: 0;
+    }
+
+
+    .asideBar {
+        width: 35px;
+        height: 5px;
+        border-radius: 20px;
+        background-color: var(--text-color);
+    }
+
+    .asideArea {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .asideMenuArea {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        width: 65%;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.78);
+        z-index: 1;
+        animation: 0.3s ease-in-out 0s 1 normal forwards running asideAnimation;
+    }
+
+
+    @keyframes asideAnimation {
+        from {
+            transform: translateX(100%);
+        }
+
+        to {
+            transform: translateX(0);
+        }
+    }
+
+    aside {
+        display: flex;
+        height: 400px;
+    }
+
+    .asideMenuArea li {
+        list-style-type: none;
+        margin-top: 40px;
+    }
+
+    .asideMenuArea li a {
+        text-decoration: none;
+        color: var(--text-color);
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    #home {
+        background-image: url('../../assets/office-cleaning-service.jpeg');
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+        width: 100%;
+    }
+
+    .homeTitleArea {
+        justify-content: flex-start;
+    }
+
+    .boxArticleArea {
+        height: 470px;
+        flex-direction: column-reverse;
+        transform: translateX();
+    }
+
+    .boxArticleArea2 {
+        align-items: flex-start;
+        height: 1240px;
+    }
+
+    .articleArea1 {
+        display: none;
+        width: 400px;
+    }
+
+    .articleArea1 img {
+        width: 350px;
+        height: 260px;
+    }
+
+    .articleArea2 {
+        width: 285px;
+        height: 360px;
+        gap: 7px;
+        padding-left: 26px;
+    }
+
+    .articleArea2 h3 {
+        font-size: 14px;
+    }
+
+
+    .littleBar1 {
+        width: 22px;
+        height: 4px;
+    }
+
+
+    .boxOurServices {
+        max-width: 760px;
+    }
+
+    .boxesServices {
+        gap: 20px;
+        flex-direction: column;
+    }
+
+    .servicesContainers {
+        width: 285px;
+        height: 360px;
+        margin: 0;
+    }
+
+    .servicesContainers img {
+        width: 255px;
+    }
+
+    .servicesContainers h2 {
+        font-size: 22px;
+        margin-left: 18px;
+        margin-top: 15px;
+    }
+
+    .servicesContainers p {
+        font-size: 15px;
+        width: 249px;
+        margin-left: 19px;
+        margin-top: 9px;
+    }
+
+    .boxArticleArea3 {
+        height: 585px;
+    }
+
+
+    .formElement {
+        width: 230px;
+        height: 40px;
+        padding-left: 10px;
+    }
+
+    .formElementSub {
+        width: 160px;
+        height: 45px;
+        margin: auto;
+    }
+
+
+    .lowerTotalAreaFooter .lowerArea {
+        max-width: 800px;
+    }
+
+    .reservedRights {
+        width: 300px;
+        font-size: 14px;
+        margin-left: 31px;
+    }
+
+
+    .containerFooter .logoArea a p {
+        width: 143px;
+    }
+
+
+    .containerFooter .contactsBox1 p {
+        font-size: 12px;
+    }
+
+    .containerFooter .socialsBox1 {
+        width: 85px;
+        display: flex;
+    }
+
+    .containerFooter .socialsBox1 img {
+        width: 20px;
+        height: 20px;
+
+        display: flex;
+    }
+
+    .containerFooter {
+        height: 270px;
+        padding-top: 20px;
+        align-items: start;
+        padding-right: 44px;
+    }
+
+    .containerFooter .totalMenuArea {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .containerFooter .logoArea a {
+        width: 143px;
+        margin-left: -17px;
+    }
+
+    .containerFooter .contactsBox1 {
+        display: flex;
+        width: 140px;
+        margin-left: 15px;
+    }
+
+    .containerFooter .contactsBox1 p {
+        font-size: 12px;
+    }
+
+
+}
+
+@media (min-width:220px) and (max-width:320px) {
+
+    .boxUpperArea {
+        max-width: 800px;
+        padding-left: 20px;
+        gap: 10px;
+        justify-content: center;
+    }
+
+
+    .contactsBox1 {
+        display: none;
+    }
+
+
+    .socialsBox1 {
+        display: none;
+    }
+
+    .totalMenuArea {
+        max-width: 660px;
+        gap: 20px;
+        padding-left: 30px;
+        padding-right: 30px;
+        justify-content: space-between;
+    }
+
+    .totalNavArea {
+        display: none;
+    }
+
+    .asideBtnArea {
+        width: 30px;
+        height: 45px;
+        background-color: #0058ca;
+        border-radius: 8px;
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .btnMenuAside {
+        border: 0;
+    }
+
+
+    .asideBar {
+        width: 22px;
+        height: 4px;
+        border-radius: 20px;
+        background-color: var(--text-color);
+    }
+
+    .asideArea {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .asideMenuArea {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        width: 65%;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.78);
+        z-index: 1;
+        animation: 0.3s ease-in-out 0s 1 normal forwards running asideAnimation;
+
+    }
+
+    @keyframes asideAnimation {
+        from {
+            transform: translateX(100%);
+        }
+
+        to {
+            transform: translateX(0);
+        }
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    .show {
+        display: flex;
+    }
+
+    aside {
+        display: flex;
+        height: 400px;
+    }
+
+    .asideMenuArea li {
+        list-style-type: none;
+        margin-top: 40px;
+    }
+
+    .asideMenuArea li a {
+        text-decoration: none;
+        color: var(--text-color);
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+
+    #home {
+        background-image: url('../../assets/office-cleaning-service.jpeg');
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+        width: 100%;
+    }
+
+    .homeTitleArea {
+        justify-content: flex-start;
+    }
+
+    .homeTitleArea h2 {
+        text-align: center;
+    }
+
+    .boxArticleArea {
+        height: 470px;
+        flex-direction: column-reverse;
+        transform: translateX();
+    }
+
+    .boxArticleArea2 {
+        align-items: flex-start;
+        height: 1240px;
+    }
+
+    .articleArea1 {
+        display: none;
+        width: 400px;
+    }
+
+    .articleArea1 img {
+        width: 350px;
+        height: 260px;
+    }
+
+    .articleArea2 {
+        width: 235px;
+        height: 360px;
+        gap: 7px;
+        padding-left: 26px;
+    }
+
+    .articleArea2 h3 {
+        font-size: 12px;
+    }
+
+
+    .littleBar1 {
+        width: 22px;
+        height: 4px;
+    }
+
+
+    .boxOurServices {
+        max-width: 760px;
+    }
+
+    .boxesServices {
+        gap: 20px;
+        flex-direction: column;
+    }
+
+    .servicesContainers {
+        width: 235px;
+        height: 360px;
+        margin: 0;
+    }
+
+    .servicesContainers img {
+        width: 200px;
+    }
+
+    .servicesContainers h2 {
+        font-size: 19px;
+        margin-left: 18px;
+        margin-top: 25px;
+    }
+
+    .servicesContainers p {
+        font-size: 15px;
+        width: 197px;
+        margin-left: 19px;
+        margin-top: 25px;
+    }
+
+    .boxArticleArea3 {
+        height: 585px;
+    }
+
+
+    .formElement {
+        width: 190px;
+        height: 40px;
+        padding-left: 10px;
+    }
+
+    .formElementSub {
+        width: 160px;
+        height: 45px;
+        margin: auto;
+    }
+
+
+    .lowerTotalAreaFooter .lowerArea {
+        max-width: 800px;
+    }
+
+    .reservedRights {
+        width: 220px;
+        font-size: 14px;
+        margin-left: 31px;
+    }
+
+
+    .containerFooter .logoArea a p {
+        width: 143px;
+    }
+
+
+    .containerFooter .contactsBox1 p {
+        font-size: 12px;
+    }
+
+    .containerFooter .socialsBox1 {
+        width: 85px;
+        display: flex;
+    }
+
+    .containerFooter .socialsBox1 img {
+        width: 20px;
+        height: 20px;
+
+        display: flex;
+    }
+
+    .containerFooter {
+        height: 290px;
+        padding-top: 20px;
+        align-items: start;
+        padding-right: 44px;
+    }
+
+    .containerFooter .totalMenuArea {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .containerFooter .logoArea a {
+        width: 143px;
+        margin-left: -17px;
+    }
+
+    .containerFooter .contactsBox1 {
+        display: flex;
+        width: 140px;
+        margin-left: 15px;
+    }
+
+    .containerFooter .contactsBox1 p {
+        font-size: 12px;
+    }
+
+
+}

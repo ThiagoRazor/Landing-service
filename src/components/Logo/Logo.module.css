@@ -1,0 +1,24 @@
+.logoArea {
+    height: 60px;
+    width: 145px;
+    cursor: pointer;
+
+}
+
+.logoArea img {
+    width: 165px;
+    height: 70px;
+}
+
+.logoArea a {
+    text-decoration: none;
+}
+
+@media (min-width:768px) and (max-width:1024px) {
+    .logoArea {
+        width: 103px;
+    }
+
+
+
+}
