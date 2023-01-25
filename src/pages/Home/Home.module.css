@@ -36,6 +36,7 @@ body {
     background-color: #1280e0;
     border: 0;
     z-index: 1;
+    cursor: pointer;
 }
 
 .container {
