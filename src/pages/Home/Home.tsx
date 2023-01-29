@@ -16,10 +16,12 @@ import submitImg from "../../assets/submit-img.jpg";
 import refriCl from '../../assets/refrigerator-cleaning.jpg';
 import wallCl from '../../assets/wall-spot-cleaning.jpg';
 import baseCl from '../../assets/baseboard-cleaning.jpg';
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import { sendForm } from '../../components/helpers/sendForm';
 import { showAsideMenu, closeAsideMenu } from '../../components/helpers/showAsideMenu';
 import { scrollToTop } from "../../components/helpers/scrollBtn";
 import { hideButton } from "../../components/helpers/hideBtn";
+import {openWhatsChat} from '../../components/helpers/whatsSend';
 import { TypeAnimation } from "react-type-animation";
 import '../../Popup.css';
 import AOS from 'aos';
@@ -37,6 +39,7 @@ export const Home = () => {
     return (
         <div>
             <button id="topButton" className={styles.topButtonScroll} onClick={scrollToTop}>^</button>
+            <button id="topButton" className={styles.whatsappBtn} onClick={openWhatsChat}><WhatsAppIcon style={{ width: '40', height: '40', position:'relative', left:'-4', top:'-5'}}/></button>
             <section id={styles.home}>
                 <header>
                     <div className={styles.asideArea}>

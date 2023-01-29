@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "page-test-62db3"
-  }
+    "default": "sueli-landing",
+    "sueliscleaningservice": "sueli-landing"
+  },
+  "targets": {},
+  "etags": {}
 }

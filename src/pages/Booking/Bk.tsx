@@ -14,6 +14,8 @@ import submitImg from "../../assets/submit-img.jpg";
 import React, { useState } from 'react';
 import { sendForm } from '../../components/helpers/sendForm';
 import { showAsideMenu, closeAsideMenu } from '../../components/helpers/showAsideMenu';
+import {openWhatsChat} from '../../components/helpers/whatsSend';
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import Aos from "aos";
 
 export const Bk: React.FC = () => {
@@ -21,7 +23,7 @@ export const Bk: React.FC = () => {
 
     return (
         <div>
-
+                        <button id="topButton" className={styles.whatsappBtn} onClick={openWhatsChat}><WhatsAppIcon style={{ width: '40', height: '40', position:'relative', left:'-4', top:'-5'}}/></button>
             <section id={styles.home}>
                 <header>
                     <div className={styles.asideArea} >
