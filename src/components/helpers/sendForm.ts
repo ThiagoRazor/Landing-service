@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import emailjs from '@emailjs/browser';
 
-emailjs.init('uPPA88JUU8uq3WJJ9');
+emailjs.init('BhkGdx7mx5mw3hcNX');
 
 
 
@@ -20,7 +20,7 @@ export const sendForm = (event: React.FormEvent<HTMLFormElement>) => {
 
     const templateParams = {
         from: email,
-        to: 'thiago.silva@ice.ufjf.br',
+        to: 't.iron1240@gmail.com',
         subject: 'Dados do formulário',
         cc: email,
         name: name,
@@ -32,7 +32,7 @@ export const sendForm = (event: React.FormEvent<HTMLFormElement>) => {
     }
 
 
-    emailjs.send('service_cn86eb7', 'template_ln3k9ld', templateParams)
+    emailjs.send('service_7sr690h', 'template_l93l56a', templateParams)
         .then((response) => {
             console.log('Formulário enviado com sucesso!', response.status, response.text);
             const successDiv = document.createElement('div');

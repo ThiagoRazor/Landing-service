@@ -76,7 +76,7 @@ body {
         transform: scale(0);
     }
     100% {
-        transform: scale(2);
+        transform: scale(1.4);
     }
 
 }
