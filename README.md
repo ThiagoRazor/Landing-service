@@ -1,46 +1,67 @@
-# Getting Started with Create React App
+# S.I.D Neat & Clean
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este é um site de landing page construído utilizando React.js com um formulário implementado utilizando React Hook Form.
 
-## Available Scripts
+## Recursos
 
-In the project directory, you can run:
+- **[@heroicons/react](https://heroicons.com/react/)**: Ícones customizáveis para React. (v2.0.14)
+- **[Firebase](https://firebase.google.com/)**: SDK para Firebase. (v10.5.0)
+- **[Framer Motion](https://www.framer.com/motion/)**: Biblioteca para animações no React. (v9.0.1)
+- **[React](https://reactjs.org/)**: Biblioteca principal do React. (v18.2.0)
+- **[react-anchor-link-smooth-scroll](https://www.npmjs.com/package/react-anchor-link-smooth-scroll)**: Componente para rolar suavemente para âncoras na página. (v1.0.12)
+- **[react-dom](https://reactjs.org/docs/react-dom.html)**: Pacote DOM para React. (v18.2.0)
+- **[react-firebase-hooks](https://github.com/csfrequency/react-firebase-hooks)**: Hooks para Firebase em React. (v5.1.1)
+- **[react-hook-form](https://react-hook-form.com/)**: Biblioteca para gerenciamento de formulários no React. (v7.43.0)
 
-### `npm start`
+## Como Rodar Localmente
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1. Certifique-se de ter o Node.js e o npm instalados em sua máquina.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+2. Instale as dependências utilizando npm:
+```sh
+  npm install
+```
+3. Inicie o servidor de desenvolvimento:
+```sh
+  npm run dev
+```
+4. O site estará acessível em [http://localhost:3000](http://localhost:3000).
 
-### `npm test`
+## Como Instalar no Firebase Hosting
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Certifique-se de ter uma conta no Firebase e ter configurado um projeto.
 
-### `npm run build`
+2. Instale a ferramenta de linha de comando do Firebase globalmente:
+```sh
+  npm install -g firebase-tools
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. Faça login no Firebase:
+```sh
+  firebase login
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4. Na raiz do projeto, inicialize o projeto Firebase:
+```sh
+  firebase init
+```
 
-### `npm run eject`
+- Selecione as opções relevantes, incluindo Firebase Hosting.
+- Escolha o projeto Firebase existente.
+- Defina `build` como diretório público.
+- Responda "no" à pergunta sobre substituir o arquivo `index.html`.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+5. Após inicializar o projeto Firebase, crie uma versão de produção do site:
+```sh
+  npm run build
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+6. Implante o site com o Firebase:
+```sh
+  firebase deploy
+```
+less
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+7. Após a implantação, o site estará disponível no domínio fornecido pelo Firebase.
